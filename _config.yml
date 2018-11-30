@@ -20,9 +20,9 @@ title                    : "James Dev Blog"
 title_separator          : "-"
 name                     : "James Kim"
 description              : "James dev blog!"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : # the base hostname & protocol for your site e.g. "https://james9dev.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : # GitHub username/repo-name e.g. "james9dev/james9dev.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -109,7 +109,7 @@ author:
   location         : "South Korea!"
   email            :
   links:
-    - label: "Email"
+    - label: "warofblood@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:warofblood@gmail.com
     - label: "Website"
