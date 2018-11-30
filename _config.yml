@@ -133,7 +133,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://www.facebock.com"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
