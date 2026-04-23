@@ -631,8 +631,8 @@ img {
 
 .project-triad li {
   display: grid;
-  grid-template-columns: 86px 1fr;
-  gap: 0.42rem;
+  grid-template-columns: 8.25rem minmax(0, 1fr);
+  gap: 0.5rem;
   align-items: start;
   color: var(--text-soft);
   font-size: 0.83rem;
@@ -640,11 +640,15 @@ img {
 }
 
 .project-triad strong {
+  display: block;
   color: var(--brand);
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  line-height: 1.32;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .project-links,
@@ -1121,6 +1125,7 @@ img {
   }
 
   .project-triad li {
+    grid-template-columns: 7.5rem minmax(0, 1fr);
     font-size: 0.86rem;
   }
 
