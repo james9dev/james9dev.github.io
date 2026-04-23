@@ -161,7 +161,7 @@
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">About</p>
-            <h2>기술을 제품 성과로 연결합니다</h2>
+            <h2>앱 개발부터 API Server까지, 전 과정을 리드합니다</h2>
           </div>
 
           <div class="about-grid">
@@ -184,6 +184,7 @@
                 <li>Live Audio</li>
                 <li>Media Player</li>
                 <li>Realtime Chat</li>
+                <li>OAuth2</li>
               </ul>
             </article>
           </div>
@@ -213,7 +214,6 @@
                 <li>RxSwift</li>
                 <li>MVVM</li>
                 <li>Clean Architecture</li>
-                <li>SnapKit</li>
               </ul>
             </article>
           </div>
@@ -226,29 +226,23 @@
                 <li>Spring Boot</li>
                 <li>JPA</li>
                 <li>Database</li>
-                <li>OAuth2</li>
-                <li>Socket</li>
-                <li>WebRTC</li>
-                <li>APNS</li>
-                <li>FCM</li>
+                <li>AWS</li>
+                <li>GCP</li>
               </ul>
             </article>
 
             <article class="panel">
-              <h3>Cloud &amp; Collaboration</h3>
+              <h3>Collaboration</h3>
               <ul class="tag-list">
-                <li>AWS</li>
-                <li>GCP</li>
-                <li>Firebase</li>
-                <li>Google Analytics</li>
                 <li>Git</li>
                 <li>GitHub PR</li>
                 <li>Code Review</li>
                 <li>Slack</li>
                 <li>Jira</li>
                 <li>Notion</li>
-                <li>Zeplin</li>
                 <li>Figma</li>
+                <li>Google Analytics</li>
+                <li>Firebase</li>
               </ul>
             </article>
           </div>
@@ -281,9 +275,11 @@
                 <div class="project-dots" aria-label="이미지 선택"></div>
               </div>
               <ul class="project-triad">
-                <li><strong>목표</strong><span>QR 코드를 활용한 디지털 앨범 서비스 및 공연 현장 인증 플랫폼 구축</span></li>
-                <li><strong>기여</strong><span>iOS(SwiftUI/TCA)와 API 서버(Spring Boot/JPA/AWS)를 함께 리드하며 핵심 구조와 기능을 설계/구현</span></li>
-                <li><strong>성과</strong><span>QR 기반 앨범 인증을 안정적으로 운영 가능한 형태로 구현</span></li>
+                <li><strong>Goal</strong><span>QR 인증 기반 디지털 앨범 경험을 실사용 환경에서 안정적으로 동작하는 서비스로 구축</span></li>
+                <li><strong>Ownership</strong><span>iOS 앱과 API Server를 함께 리드하며 설계, 개발, 배포, 운영의 전체 사이클을 책임</span></li>
+                <li><strong>Tech Decision</strong><span>도메인 중심 API 설계을 통하여 앱/서버 간 구현 복잡도와 운영 리스크를 축소</span></li>
+                <li><strong>Impact</strong><span>paer, picklstore, paer for SHOW까지 3개 앱 라인업을 출시하고 운영 가능한 제품 체계를 확립</span></li>
+                <li><strong>Stack</strong><span>SwiftUI, TCA, Spring Boot, JPA, AWS, REST API, Flutter</span></li>
               </ul>
               <p class="project-links">
                 <a class="appstore-link" href="https://apps.apple.com/app/paer/id6740255413" target="_blank" rel="noreferrer" aria-label="paer App Store 링크">App Store에서 보기 (paer)</a>
@@ -314,9 +310,11 @@
                 <div class="project-dots" aria-label="이미지 선택"></div>
               </div>
               <ul class="project-triad">
-                <li><strong>목표</strong><span>오디오 기반 SNS를 빠르게 시장에 출시하고 글로벌 운영 가능한 제품으로 성장시키기</span></li>
-                <li><strong>기여</strong><span>iOS 메인 개발과 앱 리드를 맡아 실시간 오디오/채팅/결제 기능 중심으로 릴리즈 주도</span></li>
-                <li><strong>성과</strong><span>4개월 내 초기 출시, 3회 Major + 60회 이상 Minor 업데이트, 영어권 15개국 + 한국 + 일본 운영</span></li>
+                <li><strong>Goal</strong><span>실시간 오디오 소셜 경험을 빠르게 제품화하고 글로벌 확장이 가능한 운영 구조를 확보</span></li>
+                <li><strong>Ownership</strong><span>iOS 메인 개발과 앱 리드를 맡고 Android/REST API 설계 및 개발을 지원하며 릴리즈를 주도</span></li>
+                <li><strong>Tech Decision</strong><span>WebRTC와 Socket 기반 실시간 구조를 서비스 요구사항에 맞게 정착시켜 품질과 확장성을 균형 있게 확보</span></li>
+                <li><strong>Impact</strong><span>4개월 내 초기 출시, 3회 Major 및 60회+ Minor 업데이트, 영어권 15개국+한국/일본 운영을 달성</span></li>
+                <li><strong>Stack</strong><span>Swift, SwiftUI, Kotlin, WebRTC, Socket, Global localization</span></li>
               </ul>
               <p class="project-note">서비스 종료 (App Store 링크 없음)</p>
             </article>
@@ -340,9 +338,11 @@
                 <div class="project-dots" aria-label="이미지 선택"></div>
               </div>
               <ul class="project-triad">
-                <li><strong>목표</strong><span>웹 중심 학습 서비스를 모바일 중심으로 전환하고, 학습 몰입도를 높이는 기능을 완성</span></li>
-                <li><strong>기여</strong><span>팀장으로 앱/백엔드/디자인 파트를 리드하며 iOS/Android 앱 개발과 푸시 서버 연동을 주도</span></li>
-                <li><strong>성과</strong><span>학습 영상/퀴즈/음성 인식/오프라인 학습 기능을 안정화하고 운영 가능한 서비스 기반을 구축</span></li>
+                <li><strong>Goal</strong><span>웹 중심 학습 서비스를 모바일 중심으로 전환해 학습 지속성과 몰입 경험을 높이는 제품으로 재구성</span></li>
+                <li><strong>Ownership</strong><span>개발팀 팀장으로 앱/백엔드/디자인 파트를 리드하며 iOS/Android 개발을 총괄</span></li>
+                <li><strong>Tech Decision</strong><span>영상, 퀴즈, 음성 인식, 오프라인 학습 기능을 일관된 사용자 흐름으로 통합해 학습 경험을 단순화</span></li>
+                <li><strong>Impact</strong><span>핵심 학습 기능을 안정화하고 장기 운영이 가능한 모바일 학습 플랫폼 기반을 구축</span></li>
+                <li><strong>Stack</strong><span>iOS, Android, Objective-C, Java, Media player, Offline Learning</span></li>
               </ul>
               <p class="project-links">
                 <a class="appstore-link" href="https://apps.apple.com/app/id976531810" target="_blank" rel="noreferrer" aria-label="차이나탄 App Store 링크">App Store에서 보기 (차이나탄)</a>

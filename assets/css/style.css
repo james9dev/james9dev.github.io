@@ -631,7 +631,7 @@ img {
 
 .project-triad li {
   display: grid;
-  grid-template-columns: 34px 1fr;
+  grid-template-columns: 86px 1fr;
   gap: 0.42rem;
   align-items: start;
   color: var(--text-soft);
@@ -641,9 +641,9 @@ img {
 
 .project-triad strong {
   color: var(--brand);
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
